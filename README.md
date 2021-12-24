@@ -20,3 +20,12 @@ Proyecto para la práctica 10 de DCA
 ``` git
 	git pull
 ```
+> En mi caso ya tenía configurado el nombre de usuario y el email, pero se haría con los siguientes comandos:
+> ``` git
+> git config --global user.name "nombre"
+> git config --global user.email "usuario@email.com"
+> ```
+
+## Crear alias locales y globales
+### Globales
+
