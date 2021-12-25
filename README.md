@@ -59,4 +59,11 @@ alias gc='git commit '
 - Acabamos encontrando el primer commit con fallo:
 ![](imagenes/deteccionBadCommit.png)
 - Solo quedaría ir al commit del fallo, crear una rama de error, corregirlo y mergear a la rama principal. El resultado sería el siguiente:
-![](imagenes/)
+![](imagenes/ramasFinal.png)
+
+## Hooks
+
+Se han creado dos hooks:
+
+- El primero refiere al mensaje del commit: añadimos información del autor del commit: **.git/hooks/prepare-commit-msg**
+- Mensaje de agradecimiento después de un commit: **.git/hooks/post-commit**
