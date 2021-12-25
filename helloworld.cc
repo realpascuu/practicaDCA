@@ -12,6 +12,7 @@ int main() {
         cout << "1. Mandar saludo" << endl;
         cout << "2. Mandar despedida" << endl;
         cout << "3. Mandar mensaje navideño" << endl;
+        cout << "4. Mandar mensaje año nuevo" << endl;
         cout << "0. Salir" << endl;
         cin >> op;
 
@@ -39,6 +40,15 @@ int main() {
             cin >> nombre;
 
             cout << "¡Feliz Navidad, " << nombre << "! Cuidado con el turrón..." << endl;
+            break;
+        }
+        case 4: {
+            string nombre;
+            cout << "Introduce nombre: ";
+            cin >> nombre;
+
+            cout << "¡Feliz Año nuevo, " << nombre 
+            << "! Todos mis mejores deseos para tu familia y amigos" << endl;
             break;
         }
         case 0:
