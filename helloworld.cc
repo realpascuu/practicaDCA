@@ -11,6 +11,7 @@ int main() {
         cout << "¿Qué quieres hacer?" << endl;
         cout << "1. Mandar saludo" << endl;
         cout << "2. Mandar despedida" << endl;
+        cout << "3. Mandar mensaje navideño" << endl;
         cout << "0. Salir" << endl;
         cin >> op;
 
@@ -30,6 +31,14 @@ int main() {
             cin >> despedida;
 
             cout << "Hasta luego, " << despedida << endl;
+            break;
+        }
+        case 3: {
+            string nombre;
+            cout << "Introduce nombre: ";
+            cin >> nombre;
+
+            cout << "¡Feliz Navidad, " << nombre << "! Cuidado con el turrón..." << endl;
             break;
         }
         case 0:
