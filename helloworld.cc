@@ -10,6 +10,7 @@ int main() {
         int op;
         cout << "¿Qué quieres hacer?" << endl;
         cout << "1. Mandar saludo" << endl;
+        cout << "2. Mandar despedida" << endl;
         cout << "0. Salir" << endl;
         cin >> op;
 
@@ -21,6 +22,14 @@ int main() {
             cin >> saludo;
 
             cout << "Hola " << saludo << endl;
+            break;
+        }
+        case 22: {
+            string despedida;
+            cout << "Introduce nombre: ";
+            cin >> despedida;
+
+            cout << "Hasta luego, " << despedida << endl;
             break;
         }
         case 0:

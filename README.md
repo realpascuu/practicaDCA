@@ -43,4 +43,6 @@ alias gc='git commit '
 ```
 
 ## Creado programa sencillo
-El programa manda un saludo al nombre que introduzca el usuario por la pantalla
+
+- El programa manda un saludo al nombre que introduzca el usuario por la pantalla
+- Ahora creamos un error
