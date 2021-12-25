@@ -24,7 +24,7 @@ int main() {
             cout << "Hola " << saludo << endl;
             break;
         }
-        case 22: {
+        case 2: {
             string despedida;
             cout << "Introduce nombre: ";
             cin >> despedida;
