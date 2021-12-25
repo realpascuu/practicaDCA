@@ -46,3 +46,17 @@ alias gc='git commit '
 
 - El programa manda un saludo al nombre que introduzca el usuario por la pantalla
 - Ahora creamos un error
+- Nos damos cuenta de que hay un *bug*: hay error ahora y no había error cuando solo estaba implementado el saludo.
+``` git
+    git bisect start
+    git bisect bad (el commit actual sabemos que está mal)
+    git bisect good 4255fce (Commit de añadido saludo)
+```
+
+- Nos quedaría algo así:
+![](./imagenes/hiloBisect.png)
+- Ahora vamos marcando cada commit como good o bad dentro de ese rango.
+- Acabamos encontrando el primer commit con fallo:
+![](imagenes/deteccionBadCommit.png)
+- Solo quedaría ir al commit del fallo, crear una rama de error, corregirlo y mergear a la rama principal. El resultado sería el siguiente:
+![](imagenes/)
